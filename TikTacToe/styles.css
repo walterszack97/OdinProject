@@ -1,0 +1,21 @@
+.board_container {
+  display: grid;
+  grid-template: 50px 50px 50px / 50px 50px 50px;
+}
+
+.board_container > div {
+  border: 1px solid blue;
+}
+
+.player_container{
+  display: grid;
+  grid-template-columns: 80px 50px;
+}
+
+.startgame_container {
+  margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
